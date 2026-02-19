@@ -43,7 +43,7 @@ export VITE_API_URL=http://localhost:8080 # in here you ip
 npm install
 npm run build
 apt install apache2 -y
-cp dist/* /var/www/html/
+cp -rvf dist/* /var/www/html/
 systemctl start apache2
 ```
 
