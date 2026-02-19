@@ -25,7 +25,7 @@ cd Flight-reservation
 cd FlightReservationSystem
 apt install openjdk-17-jdk -y
 apt install maven -y
-export DATASOURCE_URL="jdbc:mysql://localhost:3306/flightdb"
+export DATASOURCE_URL="jdbc:mysql://localhost:3306/flightdb" # in here mysql endpoint
 export DATASOURCE_USER="linux"
 export DATASOURCE_PASSWORD="Redhat"
 export FRONTEND_URL="http://localhost:80"
@@ -38,7 +38,7 @@ java -jar target/flight*.jar
 cd Flight-reservation
 cd frontend
 apt install nodejs npm -y
-export VITE_API_URL=http://localhost:8080
+export VITE_API_URL=http://localhost:8080 # in here you ip
 npm install
 npm run build
 apt install apache2 -y
