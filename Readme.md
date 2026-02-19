@@ -30,7 +30,7 @@ export DATASOURCE_URL="jdbc:mysql://localhost:3306/flightdb" # in here mysql end
 export DATASOURCE_USER="linux"
 export DATASOURCE_PASSWORD="Redhat" # Your set password during you used in mysql paste here "Redhat"="Your_password"
 export FRONTEND_URL="http://localhost:80"
-mvn clean package  #   mvn clean package -DskipTests (optional if original not work)
+mvn clean package  #   
 java -jar target/flight*.jar
 cd target
 java -jar flightreservationApplication-0.0.1-SNAPSHOT.jar
