@@ -21,8 +21,8 @@ mysql -uroot -p
 
 3. Deploy Backend
 ```shell
-cd Flight-reservation
-cd FlightReservationSystem
+cd flight-reservation-app
+cd FlightReservationApplication
 apt install openjdk-17-jdk -y
 apt install maven -y
 export DATASOURCE_URL="jdbc:mysql://localhost:3306/flightdb" # in here mysql endpoint
