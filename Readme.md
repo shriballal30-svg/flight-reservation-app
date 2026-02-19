@@ -25,9 +25,10 @@ cd flight-reservation-app
 cd FlightReservationApplication
 apt install openjdk-17-jdk -y
 apt install maven -y
-export DATASOURCE_URL="jdbc:mysql://localhost:3306/flightdb" # in here mysql endpoint
+#All of this below should edit in application.properties in both file path 1.flight-reservation-app/FlightReservationApplication  2.flight-reservation-app/FlightReservationApplication/src/main/resources
+export DATASOURCE_URL="jdbc:mysql://localhost:3306/flightdb" # in here mysql endpoint/ec2 ip
 export DATASOURCE_USER="linux"
-export DATASOURCE_PASSWORD="Redhat"
+export DATASOURCE_PASSWORD="Redhat" # Your set password during you used in mysql paste here "Redhat"="Your_password"
 export FRONTEND_URL="http://localhost:80"
 mvn clean package
 java -jar target/flight*.jar
