@@ -3,7 +3,7 @@
 ## Steps to deploy Application
 1. Clone this repository
 ```shell
-1-- git clone https://github.com/shubhamkalsait/Flight-reservation.git
+1-- git clone https://github.com/shriballal30-svg/flight-reservation-app.git
 ```
 
 2. Install Mysql Server and create database
